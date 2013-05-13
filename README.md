@@ -57,9 +57,9 @@ BattleNationsTools
 
 ### 输出
 
-- 支持的输出格式为cmd/terminal窗口输出，`txt`文件，`xsl`文件（输出`xsl`文件**默认关闭**）
+- 支持的输出格式为cmd/terminal窗口输出，`txt`文件，`md`文件（方便在线预览）和`xsl`文件（输出`xsl`文件**默认关闭**）
 
-- 请在此文件末尾指定您需要的输出格式，方法为注释掉不需要的输出方式
+- 请在此文件末尾指定您需要的输出格式，方法为注释掉不需要的输出方式，或删除需要的输出方式之前的`#`
 
 - 如需要输出`xsl`格式，请安装python的[xlwt库](https://pypi.python.org/pypi/xlwt)（支持写`xsl`文件），并删除 `#from xlwt import Workbook` 中的`#`
 

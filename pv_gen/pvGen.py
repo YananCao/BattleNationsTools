@@ -55,6 +55,26 @@ def pv_out_txt():
 def pv_out_csv():
 	pass
 
+# for online displaying on Github
+def pv_out_md():
+	out_path = file_out + '.md'
+	out      = open(out_path,'w')
+	out.write('<table>\n')
+	for line in lines:
+		if len(line) <= 1: #empty lines
+			continue
+		out.write('<tr>')
+		current_pv_line = pv_line(line)[0:-1]
+		if len(current_pv_line) > 0:
+			sp = current_pv_line.split(sep)
+			for x in sp:
+				out.write('<td>' + x + '</td>')
+		out.write('</tr>\n')
+	out.write('\n</table>')
+	out.close()
+
+pv_out_md()
+
 def pv_out_xls():
 	book     = Workbook(encoding = 'utf-8')
 	pv_sheet = book.add_sheet('pv' + version)
@@ -80,4 +100,5 @@ def pv_out_xls():
 if __name__ == '__main__':
 	pv_out_cli()
 	pv_out_txt()
-	# pv_out_xls()
+	#pv_out_xls()
+	#pv_out_md()
