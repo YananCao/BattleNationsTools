@@ -31,7 +31,7 @@ RPG	s_rpg
 化学兵	s_chem_trooper
 调解者	s_bounty_hunter
 化学掷弹兵	s_grenadier_bio
-雷电兵 s_trooper_lightning
+雷电兵	s_trooper_lightning
 闪电龙兵	s_trooper_dragoon_heavy
 退伍军人	s_trooper_veteran
 冰寒战士	s_trooper_cryo
