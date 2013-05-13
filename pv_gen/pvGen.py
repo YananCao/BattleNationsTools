@@ -37,7 +37,7 @@ def pv_out_cli():
 			continue
 		current_pv_line = pv_line(line)
 		if len(current_pv_line) > 0:
-			print pv_line(line),
+			print current_pv_line,
 
 def pv_out_txt():
 	out_path = file_out + '.txt'
@@ -48,7 +48,7 @@ def pv_out_txt():
 			continue
 		current_pv_line = pv_line(line)
 		if len(current_pv_line) > 0:
-			out.write(pv_line(line))
+			out.write(current_pv_line)
 	out.close()
 
 # 因输出中文乱码问题尚未解决，所以暂未实现
