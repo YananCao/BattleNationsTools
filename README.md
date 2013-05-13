@@ -1,6 +1,7 @@
-BattleNationsTools
+Battle Nations Tools
 ==================
 
+>自己写的一些[Battle Nations(战场争锋)](http://www.z2.com/game/battle-nations)相关的小工具
 
 - 作者：[囧泥](https://github.com/johnnywjy)
 - 协议：[WTFPL 2.0](http://www.wtfpl.net/txt/copying/)
@@ -19,7 +20,7 @@ BattleNationsTools
 
 - 修改`shared`文件夹中的`settings.py`文件，文件内有说明
 
-## Battle nations（战场争锋） PV生成器
+## Battle Nations PV生成器
 
 > 从BattleUnits.json自动生成PV表的工具
 
@@ -69,7 +70,7 @@ BattleNationsTools
 
 - 请在此文件末尾指定您需要的输出格式，方法为注释掉不需要的输出方式，或删除需要的输出方式之前的`#`
 
-- 如需要输出`xsl`格式，请安装python的[xlwt库](https://pypi.python.org/pypi/xlwt)（支持写`xsl`文件），并删除 `#from xlwt import Workbook` 中的`#`
+- 如需要输出`xsl`格式，请安装python的[xlwt库](https://pypi.python.org/pypi/xlwt)（支持写`xsl`文件），删除 `#from xlwt import Workbook` 中的`#`,并在主程序的最下方删除`#pv_out_xls()`中的`#`
 
 - 输出格式为 `[兵种名称] [id]    [PV值]`，使用`Tab`分隔
 
@@ -80,7 +81,7 @@ BattleNationsTools
     冲击步兵    s_shock 5   7   8   10  11  13
 
 
-## Battle nations（战场争锋） wiki生成器
+## Battle nations Wiki生成器
 
 >自动生成[Battle Nations Wiki](http://battlenations.wikia.com/wiki/Battle_Nations_Wiki)的工具
 
