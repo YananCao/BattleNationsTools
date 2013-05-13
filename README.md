@@ -19,8 +19,6 @@ BattleNationsTools
 
 - 修改`shared`文件夹中的`settings.py`文件，文件内有说明
 
-
-
 ## Battle nations（战场争锋） PV生成器
 
 > 从BattleUnits.json自动生成PV表的工具
@@ -29,33 +27,33 @@ BattleNationsTools
 
 1. **PV生成器主程序**
 
-    - 运行 `python a_pvGen.py`，即可在`PV_files`文件夹生成格式为`pv_[版本][语言]`的PV表。默认为txt文件和cmd/terminal窗口输出，如果想生成`xsl`文件，请看[输出](#输出)部分
+- 运行 `python a_pvGen.py`，即可在`PV_files`文件夹生成格式为`pv_[版本][语言]`的PV表。默认为txt文件和cmd/terminal窗口输出，如果想生成`xsl`文件，请看[输出](#输出)部分
 
-    - 建议使用前运行 `python newUnitDetect.py` 来检测是否有未被名称翻译表（nameMap）收录的新单位，如果检测到新单位，则直接运行主程序不会生成这些新单位的PV。（原因： 为了生成的格式整齐，本程序无法生成不在nameMap文件中的单位PV资料，而nameMap尚未找到自动更新的方法）
+- 建议使用前运行 `python newUnitDetect.py` 来检测是否有未被名称翻译表（nameMap）收录的新单位，如果检测到新单位，则直接运行主程序不会生成这些新单位的PV。（原因： 为了生成的格式整齐，本程序无法生成不在nameMap文件中的单位PV资料，而nameMap尚未找到自动更新的方法）
 
 2. **名称翻译表——nameMap文件**
 
-    - 文件在`resources`文件夹下
+- 文件在`resources`文件夹下
 
-    - 文件名使用`nameMap_[语言].txt`的格式
+- 文件名使用`nameMap_[语言].txt`的格式
 
-    - 内容使用`[兵种名称]   [id]`的格式，每个兵种占 1 行，使用`Tab`分隔
+- 内容使用`[兵种名称]   [id]`的格式，每个兵种占 1 行，使用`Tab`分隔
 
-    - 排列顺序和游戏中的显示顺序一致
+- 排列顺序和游戏中的显示顺序一致
 
-    - 不同建筑的单位之间有空行
+- 不同建筑的单位之间有空行
 
 3. **新单位检测**
 
-    - 运行`python newUnitDetect.py`
+- 运行`python newUnitDetect.py`
 
-    - 输出格式为`['[id]','[id]',...'[id]']`
+- 输出格式为`['[id]','[id]',...'[id]']`
 
-    - 示例 `['veh_artillery_napalm','s_bigfoot_child_player','s_laser_sniper']`
+- 示例 `['veh_artillery_napalm','s_bigfoot_child_player','s_laser_sniper']`
 
-    - 请手工修改nameMap文件，在其中加入这些`id`和对应语言的名称，格式参照前文。注意`名称`和`id`之间使用`Tab`分隔
+- 请手工修改nameMap文件，在其中加入这些`id`和对应语言的名称，格式参照前文。注意`名称`和`id`之间使用`Tab`分隔
 
-    - 如果检测结果是空的（输出结果为`[]`），那么运行主程序生成的PV表是无遗漏的
+- 如果检测结果是空的（输出结果为`[]`），那么运行主程序生成的PV表是无遗漏的
 
 ### 输出
 
