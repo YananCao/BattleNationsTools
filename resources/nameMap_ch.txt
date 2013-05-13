@@ -31,8 +31,8 @@ RPG	s_rpg
 化学兵	s_chem_trooper
 调解者	s_bounty_hunter
 化学掷弹兵	s_grenadier_bio
+雷电兵 s_trooper_lightning
 闪电龙兵	s_trooper_dragoon_heavy
-雷电兵	s_trooper_lightning
 退伍军人	s_trooper_veteran
 冰寒战士	s_trooper_cryo
 游击队员	s_trooper_saboteur_heavy
@@ -155,7 +155,7 @@ RPG	s_rpg
 王牌狙击手	s_sniper_special_heavy
 死神	veh_artillery_napalm
 
-年幼大脚怪	s_bigfoot_adult_player
+大脚怪	s_bigfoot_adult_player
 年幼大脚怪	s_bigfoot_child_player
 
 激光兵	s_laser_trooper
