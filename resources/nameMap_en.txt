@@ -1,0 +1,149 @@
+Trooper	s_trooper
+Shock Troop	s_shock
+Grenadier	s_grenadier
+Mortar	s_mortar
+Junior Officer	s_officer
+Hunter	s_hunter
+Gunner	s_gunner
+Dragoon	s_dragoon
+Riot Trooper	s_shotgunner
+The Wimp	s_trooper_underdog
+Arsonist	s_arsonist
+Sharpshooter	s_sniper
+Hvy Gunner	s_minigunner
+Saboteur	s_saboteur
+Flame Troop	s_flame
+Ranger	s_ranger
+Hornet	s_rocket_light
+Sniper	s_sniper_heavy
+Armadillo	s_mgshield
+Marksman	s_sniper_super
+Bazooka Squad	s_bazooka
+Commando	s_commando
+RPG Troop	s_rpg
+Demolitionist	s_demolition
+Juggernaut	s_juggernaut
+Ninja Trooper	s_ninja
+Peace Keeper	s_crowd_control_trooper
+Hitman	s_hitman
+Salamander	s_flame_heavy
+Chem Trooper	s_chem_trooper
+Bio Grenadier	s_grenadier_bio
+Lightning Trooper	s_trooper_lightning
+Lightning Dragoon	s_trooper_dragoon_heavy
+Veteran	s_trooper_veteran
+Cryo Trooper	s_trooper_cryo
+Guerrilla	s_trooper_saboteur_heavy
+Peacemonger	s_bounty_hunter
+Big Game Hunter	s_trooper_bigGameHunter
+Special Agent	s_trooper_specialAgent
+
+Young Raptor	s_raptor_player_baby
+Battel Raptor	s_raptor_player
+Young Boar	s_boar_player_baby
+Imperial Boar	s_boar_player
+Young Mammoth	s_mammoth_player_baby
+Young Sandworm 	s_sandworm_player_baby
+Tamed Sandworm	s_sandworm_player
+War Mammoth	s_mammoth_player
+
+Allied Warrior	s_raider_infantry_player
+Allied Cannoneer	s_raider_mortar_player
+Allied Firebreather	s_raider_firebreather_player
+Allied Boom Boom	s_raider_boomboom_player
+
+Mini Tank	veh_tank_mini
+Scout Bike	veh_bike
+Humvee	veh_jeep_humvee
+Dune Rider	veh_dunerider
+Aries	veh_artillery_light
+Recon Vehicle	veh_recon_light
+Light Artillery	veh_artillery
+Hailstorm	veh_rockettruck_light
+Hvy Recon	veh_recon_heavy
+Gun Truck	veh_guntruck
+Mortar Truck	veh_trackedmortar
+Firedrake	veh_flametank_light
+Puma	veh_tank_wheeled
+Tank Killer	veh_tankdestroyer
+Heavy Artillery	veh_artillery_heavy
+Light Tank	veh_tank_light
+Medium Tank	veh_tank_medium
+Rocket Truck	veh_mlrs
+Tempest	veh_mgtank
+Super Tank	veh_tank_super
+Meerkat	veh_jeep_tow
+Heavy Tank	veh_tank_heavy
+Brimstone	veh_mlrs_heavy
+Riot Truck	veh_riot_truck
+Earthshaker	veh_artillery_super
+Basilisk	veh_tank_basilisk
+Dragon	veh_tank_flame_heavy
+Light Chemical Tank	veh_tank_chem_light
+Heavy Chemical Tank	veh_tank_chem_heavy
+Heavier Tank	veh_tank_heavier
+Mega Tank	veh_tank_mega
+Lightning Tank	veh_tank_tesla
+Frostbite	veh_tank_cryo
+
+Assassinater	s_sniper_special
+Gold Tank	veh_tank_heavy_gold
+Allied Raider Dustwalker	s_raider_dustwalker_player
+Allied Mammoth	veh_raider_mammoth_player
+Allied Raider Champion	s_raider_champion_player
+Peacemaker	veh_artillery_mega
+Laser Technician	s_laser_scientist
+Shinobi	s_ninja_white
+Skirmisher	s_raider_skirmisher_player
+Radio Tech	s_trooper_missileStrike
+
+Pyro	s_frontier_pyro
+Fireworks Truck	veh_pickup_fireworks
+Lumberjack	s_frontier_chainsaw
+Hunter	s_frontier_hunter
+Minuteman	s_frontier_shotgun
+Engineer	s_frontier_dynamite
+Tractor	veh_tractor
+Chucker	veh_pickup_catapult
+
+Specimen b01 "Proto-Creeper"	s_trooper_zombie
+Specimen b02 "Creeper"	s_trooper_zombie_b
+Specimen b03 "Advanced Creeper"	s_trooper_zombie_c
+Specimen b04 "Archetype Creeper"	s_trooper_zombie_d
+	
+Specimen c01 "Proto-Cannoneer"	s_trooper_zombie_cannon
+Specimen c02 "Cannoneer"	s_trooper_zombie_cannon_b
+Specimen c03 "Advanced Cannoneer"	s_trooper_zombie_cannon_c
+Specimen c04 "Archetype Cannoneer"	s_trooper_zombie_cannon_d
+	
+Specimen a01 "Proto-Bullfrog"	s_trooper_zombie_spitter
+Specimen a02 "Bullfrog"	s_trooper_zombie_spitter_b
+Specimen a03 "Advanced Bullfrog"	s_trooper_zombie_spitter_c
+Specimen a04 "Archetype Bullfrog"	s_trooper_zombie_spitter_d
+	
+Specimen d01 "Proto-Stalker"	s_trooper_zombie_ninja
+Specimen d02 "Stalker"	s_trooper_zombie_ninja_b
+Specimen d03 "Advanced Stalker"	s_trooper_zombie_ninja_c
+Specimen d04 "Archetype Stalker"	s_trooper_zombie_ninja_d
+	
+Specimen e01 "Colossus"	s_trooper_zombie_tank
+
+scrapper	sw_guy_machete_player
+enforcer	sw_guy_assaultrifle_player
+wolf-artilery	sw_veh_artillery_player
+pickup	sw_veh_pickup_player
+grenade	sw_guy_grenade_player
+SW RPG	sw_guy_rpg_player
+
+Sinister Fragment	veh_ancient_robot_player_left
+Dexter Fragment	veh_ancient_robot_player
+
+Adult Sandworm	s_sandworm_player_adult
+Adult Boar	s_boar_player_adult
+Adult Mammoth	s_mammoth_player_adult
+Adult Raptor	s_raptor_player_adult
+Sandbag	s_sandbags
+Portable Wall	s_veh_portableWall
+
+Heavy Sniper	s_sniper_special_heavy
+Heavy Flame Tank	veh_flametank_heavy
