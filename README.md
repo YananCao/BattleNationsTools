@@ -17,6 +17,8 @@ BattleNationsTools
 
 - 检查是否安装了python，在cmd或terminal（终端）里输入`python --version`，如果显示类似`Python 2.7.3`则为已安装，如果显示命令未找到则需[下载python](http://python.org/download/)并安装
 
+- 修改`shared`文件夹中的`settings.py`文件，文件内有说明
+
 
 
 ## Battle nations（战场争锋） PV生成器
