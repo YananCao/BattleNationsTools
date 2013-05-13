@@ -100,5 +100,6 @@ def pv_out_xls():
 if __name__ == '__main__':
 	pv_out_cli()
 	pv_out_txt()
+	pv_out_md()
 	#pv_out_xls()
-	#pv_out_md()
+

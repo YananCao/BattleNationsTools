@@ -54,7 +54,6 @@ RPG	s_rpg	12	15	17	19	21	23
 军用悍马	veh_jeep_humvee	11	12	13	14	15	16
 沙丘战车	veh_dunerider	8	10	12	13	16	18
 山地火炮车	veh_artillery_light	7	8	10	12	13	15
-沙袋	s_sandbags	8	10	12	16	22	31
 迷你坦克	veh_tank_mini	10	12	13	15	17	19
 侦察车	veh_recon_light	8	9	11	13	14	16
 轻型火炮车	veh_artillery	9	11	13	15	16	19
@@ -73,7 +72,6 @@ RPG	s_rpg	12	15	17	19	21	23
 超级坦克	veh_tank_super	34	39	43	48	52	56
 狐獴炮车	veh_jeep_tow	15	17	20	22	25	27
 重型坦克	veh_tank_heavy	23	27	30	33	36	39
-移动式围墙	s_veh_portableWall	45	50	59	74	99	140
 狱火卡车	veh_mlrs_heavy	19	22	24	27	33	36
 防暴卡车	veh_riot_truck	19	22	25	27	30	33
 撼地者	veh_artillery_super	22	27	30	34	37	40
@@ -134,17 +132,10 @@ RPG	s_rpg	12	15	17	19	21	23
 银狼刀客	sw_guy_machete_player	14	16	18	20	22	25
 银狼火炮车	sw_veh_artillery_player	15	18	21	24	27	31
 银狼货车	sw_veh_pickup_player	18	22	26	30	34	38
-银狼掷弹兵	sw_guy_grenade_player	17	23	26	29	32	35
-银狼破坏者	sw_guy_rpg_player	22	23	26	29	32	35
 
 猛兽狩猎者	s_trooper_bigGameHunter	20	22	25	28	31	34
 特别探员	s_trooper_specialAgent	21	24	28	31	35	38
-成年沙虫	s_sandworm_player_adult	20	23	28	34	44	61
-成年野猪	s_boar_player_adult	12	14	17	23	31	46
-成年猛犸	s_mammoth_player_adult	15	17	21	27	38	55
-成年速龙	s_raptor_player_adult	8	11	14	18	25	36
 银狼突击兵	sw_guy_assaultrifle_player	12	15	17	19	21	23
-王牌狙击手	s_sniper_special_heavy	20	25	30	35	39	44
 
 
 
