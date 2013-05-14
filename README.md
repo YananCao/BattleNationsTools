@@ -25,6 +25,10 @@ BattleNationsTools
 
 ### 使用说明
 
+#### 使用之前
+
+- 请先把cmd或terminal的当前路径设置到`pv_gen`文件夹路径
+
 #### **PV生成器主程序**
 
 - 运行 `python a_pvGen.py`，即可在`PV_files`文件夹生成格式为`pv_[版本][语言]`的PV表。默认为txt文件和cmd/terminal窗口输出，如果想生成`xsl`文件，请看[输出](#输出)部分
