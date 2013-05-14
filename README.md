@@ -25,17 +25,17 @@ BattleNationsTools
 
 ### 使用说明
 
-1. **PV生成器主程序**
+#### **PV生成器主程序**
 
 - 运行 `python a_pvGen.py`，即可在`PV_files`文件夹生成格式为`pv_[版本][语言]`的PV表。默认为txt文件和cmd/terminal窗口输出，如果想生成`xsl`文件，请看[输出](#输出)部分
 
 - 建议使用前运行 `python newUnitDetect.py` 来检测是否有未被名称翻译表（nameMap）收录的新单位，如果检测到新单位，则直接运行主程序不会生成这些新单位的PV。（原因： 为了生成的格式整齐，本程序无法生成不在nameMap文件中的单位PV资料，而nameMap尚未找到自动更新的方法）
 
-2. **在线预览**
+#### **在线预览**
 
 - 在`PV_files`文件夹中有以`.md`结尾的文件，如果你使用浏览器在Github上打开`pv_[版本号][语言].md`文件，可以直接查看表格。[点我查看示例](https://github.com/johnnywjy/BattleNationsTools/blob/master/PV_files/pv_2.85ch.md)
 
-2. **名称翻译表——nameMap文件**
+#### **名称翻译表——nameMap文件**
 
 - 文件在`resources`文件夹下
 
@@ -47,7 +47,7 @@ BattleNationsTools
 
 - 不同建筑的单位之间有空行
 
-3. **新单位检测**
+#### **新单位检测**
 
 - 运行`python newUnitDetect.py`
 
