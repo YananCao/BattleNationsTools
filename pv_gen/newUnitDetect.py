@@ -4,6 +4,9 @@
 # 作者： 囧泥
 # 协议：WTFPL 2.0
 
+
+#output format unit id + icon name(for searching images)
+
 import json,sys
 sys.path.append("..")
 from shared import settings
@@ -25,7 +28,7 @@ def new_unit_list():
 		if data[unit_id]["side"] == "Player":
 			if len(data[unit_id]["stats"]) == max_rank:
 				if not known(unit_id):
-					result.append((str)(unit_id))
+					result.append((str)(unit_id+' '+data[unit_id]['icon'][0:-5]))# remove _icon
 	return result
 
 def known(unit_id):
