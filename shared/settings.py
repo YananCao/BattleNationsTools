@@ -37,9 +37,14 @@ def file_out():
 def max_rank():
 	return 6
 
-# 指定分隔符，默认为Tab，一般不用改，因为模板文件使用的Tab
-# seperator, default: Tab
-def sep():
+# 模板文件分隔符，默认为'='
+# template seperator, default: '='
+def sep_template():
+	return '='
+
+# 输出分隔符，默认为Tab
+# output seperator, default: Tab
+def sep_out():
 	return '\t'
 
 # !!function name is somewhat bad

@@ -1,178 +1,178 @@
-步兵	s_trooper
-冲击步兵	s_shock
-掷弹兵	s_grenadier
-迫击炮兵	s_mortar
-初级军官	s_officer
-猎兵	s_hunter
-机枪兵	s_gunner
-帝国龙	s_dragoon
-防暴步兵	s_shotgunner
-胆小鬼	s_trooper_underdog
-纵火兵	s_arsonist
-神枪手	s_sniper
-重机枪兵	s_minigunner
-特务	s_saboteur
-火焰兵	s_flame
-游骑兵	s_ranger
-大黄蜂	s_rocket_light
-狙击手	s_sniper_heavy
-巴祖卡火箭手	s_bazooka
-犰狳	s_mgshield
-超级狙击手	s_sniper_super
-特种兵	s_commando
-RPG	s_rpg
-爆破兵	s_demolition
-龟壳炮车	s_mortar_turtleShell
-野外特工	s_midrange_agent
-蓝巨人	s_juggernaut
-忍者	s_ninja
-维和士兵	s_crowd_control_trooper
-职业杀手	s_hitman
-火蜥蜴	s_flame_heavy
-猛兽狩猎者	s_trooper_bigGameHunter
-化学兵	s_chem_trooper
-调解者	s_bounty_hunter
-化学掷弹兵	s_grenadier_bio
-雷电兵	s_trooper_lightning
-闪电龙兵	s_trooper_dragoon_heavy
-退伍军人	s_trooper_veteran
-冰寒战士	s_trooper_cryo
-游击队员	s_trooper_saboteur_heavy
-北极战士	s_arctic_trooper
-元素战士	s_trooper_fire_ice
+步兵=s_trooper
+冲击步兵=s_shock
+掷弹兵=s_grenadier
+迫击炮兵=s_mortar
+初级军官=s_officer
+猎兵=s_hunter
+机枪兵=s_gunner
+帝国龙=s_dragoon
+防暴步兵=s_shotgunner
+胆小鬼=s_trooper_underdog
+纵火兵=s_arsonist
+神枪手=s_sniper
+重机枪兵=s_minigunner
+特务=s_saboteur
+火焰兵=s_flame
+游骑兵=s_ranger
+大黄蜂=s_rocket_light
+狙击手=s_sniper_heavy
+巴祖卡火箭手=s_bazooka
+犰狳=s_mgshield
+超级狙击手=s_sniper_super
+特种兵=s_commando
+RPG=s_rpg
+爆破兵=s_demolition
+龟壳炮车=s_mortar_turtleShell
+野外特工=s_midrange_agent
+蓝巨人=s_juggernaut
+忍者=s_ninja
+维和士兵=s_crowd_control_trooper
+职业杀手=s_hitman
+火蜥蜴=s_flame_heavy
+猛兽狩猎者=s_trooper_bigGameHunter
+化学兵=s_chem_trooper
+调解者=s_bounty_hunter
+化学掷弹兵=s_grenadier_bio
+雷电兵=s_trooper_lightning
+闪电龙兵=s_trooper_dragoon_heavy
+退伍军人=s_trooper_veteran
+冰寒战士=s_trooper_cryo
+游击队员=s_trooper_saboteur_heavy
+北极战士=s_arctic_trooper
+元素战士=s_trooper_fire_ice
 
-小速龙	s_raptor_player_baby
-作战速龙	s_raptor_player
-小野猪	s_boar_player_baby
-帝国野猪	s_boar_player
-小猛犸象	s_mammoth_player_baby
-小沙虫	s_sandworm_player_baby
-温顺沙虫	s_sandworm_player
-作战猛犸象	s_mammoth_player
+小速龙=s_raptor_player_baby
+作战速龙=s_raptor_player
+小野猪=s_boar_player_baby
+帝国野猪=s_boar_player
+小猛犸象=s_mammoth_player_baby
+小沙虫=s_sandworm_player_baby
+温顺沙虫=s_sandworm_player
+作战猛犸象=s_mammoth_player
 
-同盟战士	s_raider_infantry_player
-同盟加农炮兵	s_raider_mortar_player
-好斗士	s_raider_brawler_player
-同盟喷火兵	s_raider_firebreather_player
-砰砰	s_raider_boomboom_player
+同盟战士=s_raider_infantry_player
+同盟加农炮兵=s_raider_mortar_player
+好斗士=s_raider_brawler_player
+同盟喷火兵=s_raider_firebreather_player
+砰砰=s_raider_boomboom_player
 
-侦查摩托车	veh_bike
-军用悍马	veh_jeep_humvee
-沙丘战车	veh_dunerider
-山地火炮车	veh_artillery_light
-沙袋	s_sandbags
-迷你坦克	veh_tank_mini
-侦察车	veh_recon_light
-轻型火炮车	veh_artillery
-雹暴卡车	veh_rockettruck_light
-重型侦察车（HR）	veh_recon_heavy
-武装卡车	veh_guntruck
-迫击炮卡车	veh_trackedmortar
-美洲狮坦克	veh_tank_wheeled
-坦克杀手	veh_tankdestroyer
-重型火炮车	veh_artillery_heavy
-轻型坦克	veh_tank_light
-火焰坦克	veh_flametank_light
-中型坦克	veh_tank_medium
-火箭炮卡车	veh_mlrs
-暴风坦克	veh_mgtank
-超级坦克	veh_tank_super
-狐獴炮车	veh_jeep_tow
-王者650摩托车	veh_sports_bike
-重型坦克	veh_tank_heavy
-移动式围墙	s_veh_portableWall
-狱火卡车	veh_mlrs_heavy
-防暴卡车	veh_riot_truck
-撼地者	veh_artillery_super
-毒蜥坦克	veh_tank_basilisk
-猛龙坦克	veh_tank_flame_heavy
-机枪炮塔	veh_machine_gun_turret
-轻型化学坦克（LCT）	veh_tank_chem_light
-重型化学坦克（HCT）	veh_tank_chem_heavy
-火焰炮塔	veh_flame_turret
-超重型坦克	veh_tank_heavier
-残酷坦克	veh_combine_tank
-巨型坦克	veh_tank_mega
-雷电坦克	veh_tank_tesla
-冰寒坦克	veh_tank_cryo
-北极坦克	veh_tank_arctic
-重型北极坦克	veh_tank_arctic_heavy
-猛犸象火炮车	veh_mammoth_player_artillery
-投石机	veh_trebuchet
+侦查摩托车=veh_bike
+军用悍马=veh_jeep_humvee
+沙丘战车=veh_dunerider
+山地火炮车=veh_artillery_light
+沙袋=s_sandbags
+迷你坦克=veh_tank_mini
+侦察车=veh_recon_light
+轻型火炮车=veh_artillery
+雹暴卡车=veh_rockettruck_light
+重型侦察车（HR）=veh_recon_heavy
+武装卡车=veh_guntruck
+迫击炮卡车=veh_trackedmortar
+美洲狮坦克=veh_tank_wheeled
+坦克杀手=veh_tankdestroyer
+重型火炮车=veh_artillery_heavy
+轻型坦克=veh_tank_light
+火焰坦克=veh_flametank_light
+中型坦克=veh_tank_medium
+火箭炮卡车=veh_mlrs
+暴风坦克=veh_mgtank
+超级坦克=veh_tank_super
+狐獴炮车=veh_jeep_tow
+王者650摩托车=veh_sports_bike
+重型坦克=veh_tank_heavy
+移动式围墙=s_veh_portableWall
+狱火卡车=veh_mlrs_heavy
+防暴卡车=veh_riot_truck
+撼地者=veh_artillery_super
+毒蜥坦克=veh_tank_basilisk
+猛龙坦克=veh_tank_flame_heavy
+机枪炮塔=veh_machine_gun_turret
+轻型化学坦克（LCT）=veh_tank_chem_light
+重型化学坦克（HCT）=veh_tank_chem_heavy
+火焰炮塔=veh_flame_turret
+超重型坦克=veh_tank_heavier
+残酷坦克=veh_combine_tank
+巨型坦克=veh_tank_mega
+雷电坦克=veh_tank_tesla
+冰寒坦克=veh_tank_cryo
+北极坦克=veh_tank_arctic
+重型北极坦克=veh_tank_arctic_heavy
+猛犸象火炮车=veh_mammoth_player_artillery
+投石机=veh_trebuchet
 
-暗杀者	s_sniper_special
-黄金坦克	veh_tank_heavy_gold
-同盟沙漠刺客（小刀）	s_raider_dustwalker_player
-同盟猛犸象骑士（象炮）	veh_raider_mammoth_player
-同盟进袭王	s_raider_champion_player
-和平使者	veh_artillery_mega
-激光技术员	s_laser_scientist
-白忍者	s_ninja_white
-散兵	s_raider_skirmisher_player
-无线电技术员	s_trooper_missileStrike
-鹰眼女猎神	s_hunter_eagleEye
-激光炮塔	veh_laser_turret
-磁轨炮科学家	i17_guy_railgun
+暗杀者=s_sniper_special
+黄金坦克=veh_tank_heavy_gold
+同盟沙漠刺客（小刀）=s_raider_dustwalker_player
+同盟猛犸象骑士（象炮）=veh_raider_mammoth_player
+同盟进袭王=s_raider_champion_player
+和平使者=veh_artillery_mega
+激光技术员=s_laser_scientist
+白忍者=s_ninja_white
+散兵=s_raider_skirmisher_player
+无线电技术员=s_trooper_missileStrike
+鹰眼女猎神=s_hunter_eagleEye
+激光炮塔=veh_laser_turret
+磁轨炮科学家=i17_guy_railgun
 
-烟花技工	s_frontier_pyro
-烟花卡车	veh_pickup_fireworks
-伐木工	s_frontier_chainsaw
-猎人	s_frontier_hunter
-民兵	s_frontier_shotgun
-工程师	s_frontier_dynamite
-拖拉机	veh_tractor
-投石卡车	veh_pickup_catapult
+烟花技工=s_frontier_pyro
+烟花卡车=veh_pickup_fireworks
+伐木工=s_frontier_chainsaw
+猎人=s_frontier_hunter
+民兵=s_frontier_shotgun
+工程师=s_frontier_dynamite
+拖拉机=veh_tractor
+投石卡车=veh_pickup_catapult
 
-原始鬼崇者	s_trooper_zombie
-鬼崇者	s_trooper_zombie_b
-高级鬼崇者	s_trooper_zombie_c
-典型鬼崇者	s_trooper_zombie_d
+原始鬼崇者=s_trooper_zombie
+鬼崇者=s_trooper_zombie_b
+高级鬼崇者=s_trooper_zombie_c
+典型鬼崇者=s_trooper_zombie_d
 
-原始炮手	s_trooper_zombie_cannon
-炮手	s_trooper_zombie_cannon_b
-高级炮手	s_trooper_zombie_cannon_c
-典型炮手	s_trooper_zombie_cannon_d
+原始炮手=s_trooper_zombie_cannon
+炮手=s_trooper_zombie_cannon_b
+高级炮手=s_trooper_zombie_cannon_c
+典型炮手=s_trooper_zombie_cannon_d
 
-原始牛蛙	s_trooper_zombie_spitter
-牛蛙	s_trooper_zombie_spitter_b
-高级牛蛙	s_trooper_zombie_spitter_c
-典型牛蛙	s_trooper_zombie_spitter_d
+原始牛蛙=s_trooper_zombie_spitter
+牛蛙=s_trooper_zombie_spitter_b
+高级牛蛙=s_trooper_zombie_spitter_c
+典型牛蛙=s_trooper_zombie_spitter_d
 
-原始追踪者	s_trooper_zombie_ninja
-追踪者	s_trooper_zombie_ninja_b
-高级追踪者	s_trooper_zombie_ninja_c
-典型追踪者	s_trooper_zombie_ninja_d
+原始追踪者=s_trooper_zombie_ninja
+追踪者=s_trooper_zombie_ninja_b
+高级追踪者=s_trooper_zombie_ninja_c
+典型追踪者=s_trooper_zombie_ninja_d
 
-巨人	s_trooper_zombie_tank
+巨人=s_trooper_zombie_tank
 
-险恶银蛇	veh_ancient_robot_player_left
-幸运银蛇	veh_ancient_robot_player
-机器左臂2	veh_ancient_robot_2_player_left
-机器右臂2	veh_ancient_robot_2_player_right
+险恶银蛇=veh_ancient_robot_player_left
+幸运银蛇=veh_ancient_robot_player
+机器左臂2=veh_ancient_robot_2_player_left
+机器右臂2=veh_ancient_robot_2_player_right
 
-银狼刀客	sw_guy_machete_player
-银狼暴徒	sw_guy_uzi_player
-银狼火炮车	sw_veh_artillery_player
-银狼货车	sw_veh_pickup_player
-银狼掷弹兵	sw_guy_grenade_player
-银狼破坏者	sw_guy_rpg_player
-改装垃圾车	sw_veh_truck_rocket_player
+银狼刀客=sw_guy_machete_player
+银狼暴徒=sw_guy_uzi_player
+银狼火炮车=sw_veh_artillery_player
+银狼货车=sw_veh_pickup_player
+银狼掷弹兵=sw_guy_grenade_player
+银狼破坏者=sw_guy_rpg_player
+改装垃圾车=sw_veh_truck_rocket_player
 
-特别探员	s_trooper_specialAgent
-成年沙虫	s_sandworm_player_adult
-成年野猪	s_boar_player_adult
-成年猛犸	s_mammoth_player_adult
-成年速龙	s_raptor_player_adult
-银狼突击兵	sw_guy_assaultrifle_player
-王牌狙击手	s_sniper_special_heavy
-死神	veh_artillery_napalm
-摇滚巴士	veh_boomBus
-猛犸象坦克	veh_mammoth_player_tank
-磁轨炮兵	s_trooper_railgun
+特别探员=s_trooper_specialAgent
+成年沙虫=s_sandworm_player_adult
+成年野猪=s_boar_player_adult
+成年猛犸=s_mammoth_player_adult
+成年速龙=s_raptor_player_adult
+银狼突击兵=sw_guy_assaultrifle_player
+王牌狙击手=s_sniper_special_heavy
+死神=veh_artillery_napalm
+摇滚巴士=veh_boomBus
+猛犸象坦克=veh_mammoth_player_tank
+磁轨炮兵=s_trooper_railgun
 
-大脚怪	s_bigfoot_adult_player
-年幼大脚怪	s_bigfoot_child_player
+大脚怪=s_bigfoot_adult_player
+年幼大脚怪=s_bigfoot_child_player
 
-激光兵	s_laser_trooper
-激光狙击手	s_laser_sniper
-激光坦克	veh_tank_laser
+激光兵=s_laser_trooper
+激光狙击手=s_laser_sniper
+激光坦克=veh_tank_laser
