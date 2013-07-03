@@ -13,5 +13,5 @@ def show_all(name):
 	print wikia.unitbox()
 
 if __name__ == '__main__':
-	unit_name = 's_arctic_trooper'
+	unit_name = 'sw_guy_uzi_player'
 	show_all(unit_name)

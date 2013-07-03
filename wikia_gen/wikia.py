@@ -48,10 +48,10 @@ def attacks_start():
 
 #statistics
 def statistics_general():
-	return '|{}{} = {}'
+	return '| {}{} = {}'
 
 def statistics_time_gold():
-	return '|pc{lvl} = {{{{Time|{time}}}}}<br>{{{{Gold|{gold}}}}}'
+	return '| pc{lvl} = {{{{Time|{time}}}}}<br>{{{{Gold|{gold}}}}}'
 
 def statistics_resource():
 	return '<br>{{{{{res}|{num}}}}}'

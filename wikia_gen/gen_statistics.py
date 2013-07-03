@@ -29,8 +29,8 @@ def print_data(name,att,rank,value):
 	offset = 1 if att != 'levelCutoff' else 2
 	current_unit_state = data[name]['stats'][rank]
 	num_data = current_unit_state[att]
-	if num_data == 0:# 不输出为0的项
-		return
+	# if num_data == 0:# 不输出为0的项
+		# return
 	if att != 'hp' and att != 'armorHp':
 		num_data = comma(num_data)
 	print statistics_template.format(attribute_map[att],rank+offset,num_data)

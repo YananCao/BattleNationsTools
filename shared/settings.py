@@ -10,7 +10,7 @@
 # 指定BN版本，将做为PV表文件的后缀
 # specify the version of the game, it will be used as a postfix of the generated file.
 def version():
-	return '2.9'
+	return '2.98'
 
 # 请指定json文件的路径
 # specify the path of your json file
