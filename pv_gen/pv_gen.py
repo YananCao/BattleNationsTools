@@ -75,8 +75,6 @@ def pv_out_md():
     out.write('\n</table>')
     out.close()
 
-pv_out_md()
-
 def pv_out_xls():
     book     = Workbook(encoding = 'utf-8')
     pv_sheet = book.add_sheet('pv' + version)
