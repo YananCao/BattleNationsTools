@@ -38,7 +38,7 @@ Battle Nations Tools
 
 #### **在线预览**
 
-- 在`PV_files`文件夹中有以`.md`结尾的文件，如果你使用浏览器在Github上打开`pv_[版本号][语言].md`文件，可以直接查看表格。[点我查看示例](https://github.com/johnnywjy/BattleNationsTools/blob/master/PV_files/pv_2.85ch.md)
+- 在`PV_files`文件夹中有以`.md`结尾的文件，如果你使用浏览器在Github上打开`pv_[版本号][语言].md`文件，可以直接查看表格。[点我查看示例](https://github.com/johnnywjy/BattleNationsTools/blob/master/PV_files/pv_2.98ch.md)
 
 #### **名称翻译表——nameMap文件**
 
@@ -46,7 +46,7 @@ Battle Nations Tools
 
 - 文件名使用`nameMap_[语言].txt`的格式
 
-- 内容使用`[兵种名称]   [id]`的格式，每个兵种占 1 行，使用`Tab`分隔
+- 内容使用`[兵种名称]=[id]`的格式，每个兵种占 1 行，使用`=`分隔
 
 - 排列顺序和游戏中的显示顺序一致
 
@@ -62,7 +62,7 @@ Battle Nations Tools
 
 - 请手工修改nameMap文件，在其中加入这些`id`和对应语言的名称，格式参照前文。注意`名称`和`id`之间使用`Tab`分隔
 
-- 如果检测结果是空的（输出结果为`[]`），那么运行主程序生成的PV表是无遗漏的
+- 如果检测结果是['veh_flametank_heavy heavyTank_icon@2']，那么运行主程序生成的PV表是无遗漏的(这货不知坑了多久了)
 
 ### 输出
 
@@ -72,13 +72,13 @@ Battle Nations Tools
 
 - 如需要输出`xsl`格式，请安装python的[xlwt库](https://pypi.python.org/pypi/xlwt)（支持写`xsl`文件），删除 `#from xlwt import Workbook` 中的`#`,并在主程序的最下方删除`#pv_out_xls()`中的`#`
 
-- 输出格式为 `[兵种名称] [id]    [PV值]`，使用`Tab`分隔
+- 输出格式为 `[兵种名称] [id]	[PV值]`，使用`Tab`分隔
 
 **示例**
 
-    步兵  s_trooper   4   5   7   9   11  14
+	步兵	s_trooper	4	5	7	9	11	14
 
-    冲击步兵    s_shock 5   7   8   10  11  13
+	冲击步兵	s_shock	5	7	8	10	11	13
 
 
 ## Battle nations Wiki生成器
