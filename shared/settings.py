@@ -29,8 +29,14 @@ def json_unit():
 def lang():
 	return 'ch'
 
+# output file path
 def file_out():
 	return '../PV_files/pv_' + version() + lang()
+
+# output track file path
+def pv_track_path():
+	return '../PV_files/pv_track_' + version() + lang()
+
 
 # 玩家兵种的最高等级
 # return the max rank of player units

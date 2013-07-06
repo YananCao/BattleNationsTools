@@ -147,8 +147,8 @@ RPG=s_rpg
 
 险恶银蛇=veh_ancient_robot_player_left
 幸运银蛇=veh_ancient_robot_player
-机器左臂2=veh_ancient_robot_2_player_left
-机器右臂2=veh_ancient_robot_2_player_right
+远程部件=veh_ancient_robot_2_player_left
+进程部件=veh_ancient_robot_2_player_right
 
 银狼刀客=sw_guy_machete_player
 银狼暴徒=sw_guy_uzi_player

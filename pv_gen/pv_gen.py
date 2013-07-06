@@ -8,8 +8,8 @@
 import sys, json
 sys.path.append("..")
 from shared import settings
-# 如果希望输出xsl格式，删除下面一行的 '#' 以及最后一行的 '#'
-#from xlwt import Workbook
+# 如果希望输出xsl格式，删除下面两行行的 '#' 以及最后一行的 '#'
+import xlwt
 
 version   = settings.version()
 json_path = settings.json_unit()
@@ -76,24 +76,58 @@ def pv_out_md():
     out.close()
 
 def pv_out_xls():
-    book     = Workbook(encoding = 'utf-8')
+    book     = xlwt.Workbook(encoding = 'utf-8')
     pv_sheet = book.add_sheet('pv' + version)
-    row      = 0
+
+    # too ugly....looking for a better solution
+    style_name_0 = xlwt.easyxf('pattern: pattern solid, fore_colour silver_ega;'
+                    'borders: left thin, right thin, top thin, bottom thin;'
+                    'font: name SimSun, colour black, height 240, bold True;')
+
+    style_name_1 = xlwt.easyxf('pattern: pattern solid, fore_colour ice_blue;'
+                        'borders: left thin, right thin, top thin, bottom thin;'
+                        'font: name SimSun, colour black, height 240, bold True;')
+
+    style_id_0 = xlwt.easyxf('pattern: pattern solid, fore_colour silver_ega;'
+                        'borders: left thin, right thin, top thin, bottom thin;'
+                        'font: colour black, height 200;')
+
+    style_id_1 = xlwt.easyxf('pattern: pattern solid, fore_colour ice_blue;'
+                        'borders: left thin, right thin, top thin, bottom thin;'
+                        'font: colour black, height 200;')
+
+    style_pv_0 = xlwt.easyxf('pattern: pattern solid, fore_colour silver_ega;'
+                        'borders: left thin, right thin, top thin, bottom thin;'
+                        'font: name SimSun, colour dark_blue, height 240, bold True;')
+
+    style_pv_1 = xlwt.easyxf('pattern: pattern solid, fore_colour ice_blue;'
+                        'borders: left thin, right thin, top thin, bottom thin;'
+                        'font: name SimSun, colour black, height 240, bold True;')
+    row        = 0
+    style_name = style_name_0
+    style_id   = style_id_0
+    style_pv   = style_pv_0
+
     for line in lines:
         if len(line) <= 1:#empty lines
             row += 1
             continue
+
+        style_name = style_name_0 if style_name == style_name_1 else style_name_1
+        style_id =  style_id_0 if style_id == style_id_1 else style_id_1
+        style_pv =  style_pv_0 if style_pv == style_pv_1 else style_pv_1
+
         unit_name = line.split(sep_t)[0]
         unit_id = line.split(sep_t)[1][0:-1]
 
         unit_valid = unit_id in data.keys()
         #print name
         if unit_valid:
-            pv_sheet.write(row, 0, unit_name)
-            pv_sheet.write(row, 1, unit_id)
+            pv_sheet.write(row, 0, unit_name, style_name)
+            pv_sheet.write(row, 1, unit_id, style_id)
 
             for rank in xrange(0, max_rank):
-                pv_sheet.write(row, rank + 2, data[unit_id]['stats'][rank]['pv'])
+                pv_sheet.write(row, rank + 2, data[unit_id]['stats'][rank]['pv'], style_pv)
             row += 1
     book.save(file_out + '.xls')
 
@@ -101,4 +135,4 @@ if __name__ == '__main__':
     pv_out_cli()
     pv_out_txt()
     pv_out_md()
- #   pv_out_xls()
+   #pv_out_xls()
