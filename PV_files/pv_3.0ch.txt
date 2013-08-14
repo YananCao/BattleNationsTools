@@ -185,6 +185,8 @@ RPG	s_rpg	12	15	17	19	21	23
 双翼机	air_biplane	5	8	12	15	18	22	24	26	28
 飞艇	air_dirigible	7	9	12	15	17	20	22	23	26
 喷气式战斗机2	air_jet_fighter_2	5	7	10	14	18	22	26	29	32
-主力防空炮	veh_anti_aircraft_gun_regular	5	9	11	15	18	20	24	25	29
 直升机	air_helicopter	5	8	11	16	20	24	28	31	34
+二战战机	air_ww2_fighter	6	12	14	20	23	32	35	39	26
+
+主力防空炮	veh_anti_aircraft_gun_regular	5	9	11	15	18	20	24	25	29
 高级防空炮	veh_anti_aircraft_gun_premium	7	10	14	22	31	37	38	44

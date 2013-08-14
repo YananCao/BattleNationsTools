@@ -169,9 +169,9 @@
 <tr><td>双翼机</td><td>air_biplane</td><td>5</td><td>8</td><td>12</td><td>15</td><td>18</td><td>22</td><td>24</td><td>26</td><td>28</td></tr>
 <tr><td>飞艇</td><td>air_dirigible</td><td>7</td><td>9</td><td>12</td><td>15</td><td>17</td><td>20</td><td>22</td><td>23</td><td>26</td></tr>
 <tr><td>喷气式战斗机2</td><td>air_jet_fighter_2</td><td>5</td><td>7</td><td>10</td><td>14</td><td>18</td><td>22</td><td>26</td><td>29</td><td>32</td></tr>
-<tr><td>主力防空炮</td><td>veh_anti_aircraft_gun_regular</td><td>5</td><td>9</td><td>11</td><td>15</td><td>18</td><td>20</td><td>24</td><td>25</td><td>29</td></tr>
 <tr><td>直升机</td><td>air_helicopter</td><td>5</td><td>8</td><td>11</td><td>16</td><td>20</td><td>24</td><td>28</td><td>31</td><td>34</td></tr>
+<tr><td>二战战机</td><td>air_ww2_fighter</td><td>6</td><td>12</td><td>14</td><td>20</td><td>23</td><td>32</td><td>35</td><td>39</td><td>26</td></tr>
+<tr><td>主力防空炮</td><td>veh_anti_aircraft_gun_regular</td><td>5</td><td>9</td><td>11</td><td>15</td><td>18</td><td>20</td><td>24</td><td>25</td><td>29</td></tr>
 <tr><td>高级防空炮</td><td>veh_anti_aircraft_gun_premium</td><td>7</td><td>10</td><td>14</td><td>22</td><td>31</td><td>37</td><td>38</td><td>44</td></tr>
-<tr></tr>
 
 </table>

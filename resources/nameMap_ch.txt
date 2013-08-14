@@ -185,7 +185,8 @@ RPG=s_rpg
 双翼机=air_biplane
 飞艇=air_dirigible
 喷气式战斗机2=air_jet_fighter_2
-主力防空炮=veh_anti_aircraft_gun_regular
 直升机=air_helicopter
-高级防空炮=veh_anti_aircraft_gun_premium
 二战战机=air_ww2_fighter
+
+主力防空炮=veh_anti_aircraft_gun_regular
+高级防空炮=veh_anti_aircraft_gun_premium
