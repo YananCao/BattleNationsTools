@@ -13,7 +13,7 @@ def version():
 	versions = open('../resources/versions.txt','r')
 	version = versions.readline()
 	versions.close()
-	return version
+	return version[:-1]
 
 # 返回上一个版本的版本号
 # return the previous version number
@@ -22,7 +22,7 @@ def prev_version():
 	version = versions.readline()
 	prev = versions.readline()
 	versions.close()
-	return prev
+	return prev[:-1]
 
 # 请指定json文件的路径
 # specify the path of your json file

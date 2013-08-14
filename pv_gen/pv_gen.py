@@ -8,8 +8,8 @@
 import sys, json
 sys.path.append("..")
 from shared import settings
-# 如果希望输出xsl格式，删除下面两行行的 '#' 以及最后一行的 '#'
-import xlwt
+# 如果希望输出xsl格式，删除下面一行的 '#' 以及最后一行的 '#'
+#import xlwt
 
 version   = settings.version()
 json_path = settings.json_unit()
@@ -27,7 +27,8 @@ def pv_line(line):
     current_pvs = line[0:-1].replace(sep_t,sep_out) #remove \n, replace '=' with ' '
     if unit_id not in data.keys():#id不在json文件里，可能是模板比json要新，在生成老版本PV表时可能出现
         return ''
-    for rank in xrange(0,max_rank):
+    ranks = len(data[unit_id]['stats'])
+    for rank in xrange(0,ranks):
         current_pvs += sep_out + str(data[unit_id]['stats'][rank]['pv'])
     current_pvs += '\n'
     return current_pvs
@@ -126,7 +127,8 @@ def pv_out_xls():
             pv_sheet.write(row, 0, unit_name, style_name)
             pv_sheet.write(row, 1, unit_id, style_id)
 
-            for rank in xrange(0, max_rank):
+            ranks = len(data[unit_id]['stats'])
+            for rank in xrange(0,ranks):
                 pv_sheet.write(row, rank + 2, data[unit_id]['stats'][rank]['pv'], style_pv)
             row += 1
     book.save(file_out + '.xls')
@@ -135,4 +137,4 @@ if __name__ == '__main__':
     pv_out_cli()
     pv_out_txt()
     pv_out_md()
-   #pv_out_xls()
+    #pv_out_xls()

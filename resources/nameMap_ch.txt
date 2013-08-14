@@ -178,3 +178,14 @@ RPG=s_rpg
 激光兵=s_laser_trooper
 激光狙击手=s_laser_sniper
 激光坦克=veh_tank_laser
+
+独角兽=s_unicorn_trooper
+
+喷气式战斗机=air_jet_fighter
+双翼机=air_biplane
+飞艇=air_dirigible
+喷气式战斗机2=air_jet_fighter_2
+主力防空炮=veh_anti_aircraft_gun_regular
+直升机=air_helicopter
+高级防空炮=veh_anti_aircraft_gun_premium
+二战战机=air_ww2_fighter

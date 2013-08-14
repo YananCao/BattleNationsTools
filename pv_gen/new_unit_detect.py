@@ -24,7 +24,7 @@ def new_unit_list():
     result = []
     for unit_id in data.keys():
         if data[unit_id]["side"] == "Player":
-            if len(data[unit_id]["stats"]) == max_rank:
+            if len(data[unit_id]["stats"]) >= max_rank:
                 if not known(unit_id):
                     result.append((str)(unit_id+' '+data[unit_id]['icon'][0:-5]))# remove _icon
     return result
