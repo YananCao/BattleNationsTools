@@ -8,9 +8,21 @@
 # 公用部分
 
 # 指定BN版本，将做为PV表文件的后缀
-# specify the version of the game, it will be used as a postfix of the generated file.
+# return the current version number, it will be used as a postfix of the generated file.
 def version():
-	return '2.98'
+	versions = open('../resources/versions.txt','r')
+	version = versions.readline()
+	versions.close()
+	return version
+
+# 返回上一个版本的版本号
+# return the previous version number
+def prev_version():
+	versions = open('../resources/versions.txt','r')
+	version = versions.readline()
+	prev = versions.readline()
+	versions.close()
+	return prev
 
 # 请指定json文件的路径
 # specify the path of your json file

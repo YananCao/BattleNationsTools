@@ -169,6 +169,8 @@ RPG=s_rpg
 摇滚巴士=veh_boomBus
 猛犸象坦克=veh_mammoth_player_tank
 磁轨炮兵=s_trooper_railgun
+红忍者=s_ninja_red
+复制银蛇=veh_ancient_robot_player_clone
 
 大脚怪=s_bigfoot_adult_player
 年幼大脚怪=s_bigfoot_child_player
