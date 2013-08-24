@@ -9,7 +9,7 @@ import sys, json
 sys.path.append("..")
 from shared import settings
 # 如果希望输出xsl格式，删除下面一行的 '#' 以及最后一行的 '#'
-#import xlwt
+import xlwt
 
 version   = settings.version()
 json_path = settings.json_unit()
@@ -137,4 +137,4 @@ if __name__ == '__main__':
     pv_out_cli()
     pv_out_txt()
     pv_out_md()
-    #pv_out_xls()
+    pv_out_xls()
